@@ -11,7 +11,7 @@ public class Task10Main {
         int minIndex=0;
         int minValue=Integer.MAX_VALUE;
         for(int i=0;i<arr.length;++i){
-            if(arr[i]<minValue){
+            if(arr[i]<=minValue){
                 minValue=arr[i];
                 minIndex=i;
             }
